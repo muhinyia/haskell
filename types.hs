@@ -90,6 +90,3 @@ fact n = n * fact (n-1)
 
 fact' n = n * fact (n-1)
 
-f = do
-    name <- getLine
-    print $ "Hi" ++ name

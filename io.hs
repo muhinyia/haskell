@@ -14,3 +14,13 @@ main =  do
     putStrLn $ "Your Name in caps is "++bigName
 
     -}
+
+main = do
+    line <- getLine
+    if null line
+        then return ()
+    else do
+        putStrLn $ reverseWords line
+        main
+
+reverseWords = unwords . map reverse .words

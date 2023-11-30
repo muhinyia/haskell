@@ -14,5 +14,6 @@ You can download Haskell [Here](https://www.haskell.org/platform/)
  2. [Real World Haskell](https://book.realworldhaskell.org/read/)
  3. [Programming in Haskell](http://www.cs.nott.ac.uk/~pszgmh/pih.html)
  4. [A Three pager Haskell Summary](https://qmplus.qmul.ac.uk/pluginfile.php/2187292/course/section/721747/quickref.pdf)
+ 5. [The Haskell Cheatsheet](http://cheatsheet.codeslower.com/) 
 
 Happy learning 😙 🚀

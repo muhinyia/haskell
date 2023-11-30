@@ -89,3 +89,7 @@ fact n = n * fact (n-1)
 -- if no Edge condition code runs infinitely
 
 fact' n = n * fact (n-1)
+
+f = do
+    name <- getLine
+    print $ "Hi" ++ name

@@ -60,3 +60,7 @@ data Day = Mon | Tues | Wed | Thur | Fri | Sat | Sun deriving (Eq, Ord, Show, Re
 exp1 = Wed == Wed
 
 exp2 = Fri < Sat
+
+f = do
+    name <- getLine
+    print $ "Hi" ++ name

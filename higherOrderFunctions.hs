@@ -145,6 +145,7 @@ foldr :: (b -> a -> a) -> a -> [b] -> a
 similar to foldl but this time starting from the right
 -}
 
+foldListr :: (Foldable t, Num b) => t b -> b
 foldListr l =  foldr (+) 0 l
 
 
@@ -153,6 +154,7 @@ foldListr l =  foldr (+) 0 l
 
 -}
 
+quiz1 :: Foldable t => [a] -> t [a] -> [a]
 quiz1  l = foldr (++) l
 
         

@@ -37,5 +37,7 @@ batAvgRating hits atBats
 
 
 -- HIGHER ORDER FUNCTIONS
+times4 :: Num a => a -> a
 times4 x = x*4
+lt4 :: [Integer]
 lt4 = map times4 [1,2,3,4,6]

@@ -15,6 +15,7 @@ main =  do
 
     -}
 
+main :: IO ()
 main = do
     line <- getLine
     if null line

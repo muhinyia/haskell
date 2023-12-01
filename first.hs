@@ -7,6 +7,7 @@ minInt :: Int
 minInt = minBound::Int
 
 -- Double
+bigFloat :: Double
 bigFloat = 3.9993939393+ 37.838383898393983933
 
 sumsOfNum = sum[1..100]

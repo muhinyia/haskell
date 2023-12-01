@@ -89,7 +89,7 @@ invoiceBill = Invoice 7383
 {-
 Types lets us bring the type system to bear in writing programs with fewer bugs.
 
-Algebraic data types allow us to distinguish between otherwise identical pieces of information.
+
 
 There is no hard and fast rule for deciding when it's better to use a tuple or a distinct data type,
  but here's a rule of thumb to follow.
